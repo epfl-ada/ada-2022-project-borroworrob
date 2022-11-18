@@ -64,7 +64,7 @@ As mentioned in the [proposed additional data](#addata), if we are able to obtai
 - 25/11/2022: Working on Homework 2
 - 02/12/2022: Submission of Homework 2; Start working on Project Milestone 3 
 - 09/12/2022: Finish problem formulation and mathematics, start Github site 
-- 16/12/2022: Finish code and works on the github site and start Datastory 
+- 16/12/2022: Finish code, works on the github site and start Datastory 
 - 23/12/2022: Finish data story, Submission of Project Milestone 3
 
 
