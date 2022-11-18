@@ -39,8 +39,9 @@ For this part, we produced a preliminary work on the datasets described above. W
 - A distribution barplot of ethnicities in different countries
 - A histogram counting the number of popular actors for each ethnicity 
 - Boxplots of the revenue by country
+- Scatter plot for 10 countries, average box office revenue versus number of movies
+- Barplot of the average box office revenu for 10 countries
     
-
 
 #### **Part 2: How is ethnic diversity represented in each country's film industry?**
 After the primary analysis, we will start by computing ethnic diversity scores using entropy. Then, we can start answering our first research question by producing an analysis on the 10 countries that have generated the largest number of movies. For this purpose, we inted to use different models and statistical tests to extract information from our data.
@@ -61,9 +62,9 @@ As mentioned in the [proposed additional data](#addata), if we are able to obtai
     
 - 18/11/2022: Submission of Project Milestone 2; Start working on Homework 2
 - 25/11/2022: Working on Homework 2
-- 02/12/2022: Submission of Homework 2; Start working on Project Milestone 3
-- 09/12/2022: Finish problem formulation and mathematics
-- 16/12/2022: Finish code
+- 02/12/2022: Submission of Homework 2; Start working on Project Milestone 3 
+- 09/12/2022: Finish problem formulation and mathematics, start Github site 
+- 16/12/2022: Finish code and works on the github site and start Datastory 
 - 23/12/2022: Finish data story, Submission of Project Milestone 3
 
 
