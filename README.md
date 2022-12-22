@@ -30,6 +30,9 @@ The provided data is composed of five files: `character.metadata.tsv`, `movie.me
 
 * **Dataset 2**: Character metadata merged with movie metadata on the wikipedia ID  (added features to the previous dataset with movie name, revenue, runtime, countries…) 
 
+* **Dataset 3**: Non processed summaries of movie (containing wikipedia ID and summaries) 
+
+
 
 #### **Part 1: First analysis and data visualization (milestone2)**
 For this part, we produced a preliminary work on the datasets described above. We created a [jupyter notebook](https://github.com/epfl-ada/ada-2022-project-borroworrob/blob/main/main_milestone2.ipynb) containing various plots for the visualization of the data, such as:
@@ -44,16 +47,18 @@ For this part, we produced a preliminary work on the datasets described above. W
     
 
 #### **Part 2: How is ethnic diversity represented in each country's film industry?**
-After the primary analysis, we will start by computing ethnic diversity scores using entropy. Then, we can start answering our first research question by producing an analysis on the 10 countries that have generated the largest number of movies. For this purpose, we inted to use different models and statistical tests to extract information from our data.
+After the primary analysis, we will start by computing ethnic diversity scores using entropy (USA). Then, we can start answering our first research question by producing an analysis on the countries or region that have generated the largest number of movies. For this purpose, we inted to use different models and statistical tests to extract information from our data.
 
 #### **Part 3: How has this representation evolved over time?**
-The next step is to explore the evolution over time of the results found in the previous step. As mentioned before, we will use the data between 1920 and 2012 to investigate statistically significant changes for this period of time. We plan to perhaps create interactive plots showing the ethnic diversity for selected countries over time. 
+The next step is to explore the evolution over time of the results found in the previous step. We used the data between 1970 and 2012 to investigate statistically significant changes for this period of time using different quantitative analysis methods and visualisation. 
+We also created an interactive map using plotly to compare the representation of different ethnicities in five countries over the year. It allows users to explore the data and see how the percentages of different ethnicities have changed over time.
 
 #### **Part 4: Is ethnic diversity related to (financial) success?**
 For our third question, we want to see if there is a causality link between ethnicity representation and the financial success of a movie. In order to do so, we are going to carry out an observational study of the box office revenue. After this, we will once more examine how this changes with time.
 
 #### **Part 5: Are certain ethnicities more prone to be cast for specific character types?**
 As mentioned in the [proposed additional data](#addata), if we are able to obtain a large dataset providing character type information for each character, we would like to investigate whether some character types are more readily assigned to particular ethnicities. In order to do so, we would start by mapping the character types to the ethnicities and quantifying them. Then, we would like to explore how other features like age, height or gender influence the results, and maybe do a PCA for the different features.
+We also did a sentimental analysis to pick up a correlation between ethnicity representation and sentiment on the summary.
 
 #### **Part 6: Github site building and Datastory redaction.**
 
