@@ -20,16 +20,15 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Starter Kit
+title:                 BorrowOrRob
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  This is the website presenting the results we obtained from analyzing movie data to explore the evolution of ethnic diversity in the movie industry.
 
 # A shorter description for the sidebar.
-tagline:               Does this work? Changees `tagline` in `_config.yml`
+tagline:               Adaventurers exploring ethnic diversity in the movie industry.
 
 # A list of keywords for your blog
 keywords:              []
@@ -42,8 +41,8 @@ logo:                  /assets/img/epfl-logo.svg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                <David Robin> <Pavel Iosub>
+  email:               <david.paveliosub@epfl.ch>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -80,8 +79,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
@@ -89,12 +88,12 @@ remote_theme: hydecorp/hydejack@v9
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/diverse_group.png
-accent_color:          rgb(79,177,186)
+accent_color:          rgb(255,87,51)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           rgb(255,87,51)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -117,10 +116,10 @@ defaults:
   - scope:
       path:            hyde/
     values:
-      accent_color:    rgb(38,139,210)
-      theme_color:     rgb(32,32,32)
+      accent_color:    rgb(255,87,51)
+      theme_color:     rgb(255,87,51)
       accent_image:
-        background:    rgb(32,32,32)
+        background:    rgb(255,87,51)
         overlay:       false
 
   # Don't include documents in assets in the sitemap
@@ -421,3 +420,4 @@ jekyll_compose:
       links:
         - title: Project Link
           url: https://example.com
+
