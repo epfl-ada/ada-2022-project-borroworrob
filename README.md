@@ -66,7 +66,7 @@ This section was withdrawn as we did not obtain a usable dataset.
 
 #### **Part 7: Github site building and Datastory redaction.**
 
-#### **Bonus 1:sentimental analysis over summary **
+#### **Bonus 1:sentimental analysis over summary**
 We did a sentimental analysis to pick up a correlation between ethnicity representation and sentiment on the summary.
 
 #### **Bonus 2:movie genre and ethnic representation**
@@ -91,5 +91,5 @@ David : Problem formulation; Writing the report of the data story; Creating the 
     
 Johann: Classification of ethnicities in groups; Constructing the diversity score; Code work including figures
     
-Melina: Group Leadership; Spokesperson; Problem formulation; Notebook work. 
+Mélina: Group Leadership; Spokesperson; Problem formulation; Notebook work. 
 
