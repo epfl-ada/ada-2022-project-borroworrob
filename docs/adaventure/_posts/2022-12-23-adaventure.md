@@ -387,5 +387,4 @@ Table test
 | 3        | meh        | bla            |
 | 4                   |    idk                 | coucou            |
 |===============================+=====================+=====================|
-{:.gumroad-button data-gumroad-single-product="true"} |
 {:.stretch-table.dl-table}
