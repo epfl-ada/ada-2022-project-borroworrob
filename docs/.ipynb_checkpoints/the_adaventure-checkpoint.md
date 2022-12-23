@@ -273,8 +273,11 @@ As expected the famous movies are more present in US, India and Europe, we also 
 
 ![Another weird pieplot](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/22.png)
 
-Now to have a real estimation of the diversity and if there is a difference in ethnic representation for movie with success and without it, we will do an observational study by finding for each successfull movie an non successful one, for that we will look at different criterias. First the country movie has to me matched, secondly the year of production obviouly as to match maybe not the exact same year but we will do it 5 years by 5 years. Lastly the number of actors playing in the movie has to be similar to obtain a significant result. For that we will match cast that have more or less the same number of actors in 2 actors difference. After the matching we will use a linear regression to see if there is a difference in the ethnic diversity by printing a linear table of the diversity score for the two groups (successfull and non successfull movies). 
-To understand a score and show diversity, we will calcularte the ethnic diversity with simpson's diversity index.
+We can't tell whether successful or unsuccessful films have more or less diversity based on this plot. As previously stated, Indians predominate in successful films, whereas African Americans are more prevalent in unsuccessful films. Below is a more in-depth examination. 
+
+Now, in order to get a true estimate of the diversity and see if there is a difference in ethnic representation, we will conduct an observational study by calculating the difference between successful and unsuccessful films using various criteria. First, the country film must be matched, followed by the year of production. Finally, we'll compare casts that have roughly the same number of actors but differ by two.  Following the matching, we will use a linear regression to determine whether there is a difference in ethnic diversity by printing a linear table of the diversity score for the two groups (successfull and non successfull movies).
+
+To demonstrate diversity, we will compute ethnic diversity using Simpson's diversity index.
 
 ### Linear regression
 
