@@ -53,8 +53,8 @@ menu:
     url:               /adaventure/
   - title:             Our team
     url:               /ourteam/
-#  - title:             Example
-#    url:               /example/
+  - title:             Example
+    url:               /example/
 #  - title:             Documentation
 #    url:               /docs/
 #  - title:             About
@@ -75,7 +75,7 @@ legal:
 copyright:             © 2021. All rights reserved.
 
 # Format of the permalinks
-permalink:             /:categories/:title/
+permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
@@ -425,5 +425,5 @@ jekyll_compose:
         path: /assets/img/sidebar-bg.jpg
       links:
         - title: Project Link
-          url: https://adaventure.com
+          url: https://example.com
 

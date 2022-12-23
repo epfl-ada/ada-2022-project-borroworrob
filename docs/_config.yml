@@ -53,8 +53,8 @@ menu:
     url:               /adaventure/
   - title:             Our team
     url:               /ourteam/
-#  - title:             Example
-#    url:               /example/
+  - title:             Example
+    url:               /example/
 #  - title:             Documentation
 #    url:               /docs/
 #  - title:             About
@@ -425,5 +425,5 @@ jekyll_compose:
         path: /assets/img/sidebar-bg.jpg
       links:
         - title: Project Link
-          url: https://adaventure.com
+          url: https://example.com
 
