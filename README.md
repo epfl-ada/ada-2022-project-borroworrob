@@ -57,7 +57,7 @@ We also created an interactive map using plotly to compare the representation of
 #### **Part 4: Is ethnic diversity related to (financial) success?**
 For our third question, we want to see if there is a causality link between ethnicity representation and the financial success of a movie. In order to do so, we are going to carry out an observational study of the successfull movies. 
 
-#### **Part 5: Is diversity different for actors and actresses?
+#### **Part 5: Is diversity different for actors and actresses?**
 To determine a causal link between gender and ethnic diversity, we compare two datasets one with a majority of actresses and another with a majority of actors. Then we conduct an observational study and compute the linear regression. 
 
 #### **Part 6: Are certain ethnicities more prone to be cast for specific character types?**
@@ -66,10 +66,10 @@ This section was withdrawn as we did not obtain a usable dataset.
 
 #### **Part 7: Github site building and Datastory redaction.**
 
-#### **Bonus:sentimental analysis over summary **
+#### **Bonus 1:sentimental analysis over summary **
 We did a sentimental analysis to pick up a correlation between ethnicity representation and sentiment on the summary.
 
-#### **Bonus:movie genre and ethnic representation**
+#### **Bonus 2:movie genre and ethnic representation**
 We also included a few plot for each gender film as well as their ethnic proportion. 
 
     
