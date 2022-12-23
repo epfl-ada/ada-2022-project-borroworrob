@@ -57,8 +57,6 @@ We have a much better representation of the data set after 1970, with the same p
 
 ---
 
-![Ev of rep 1970](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/5.png)
-
 ## How is ethnic diversity represented in each country's film industry<a name="paragraph3"></a> 
 Looking deeper in the dataset for various geographic areas : `US`, `China`, `India`,`Europe`. 
 
@@ -259,22 +257,11 @@ The data show a quite interesting story, overall looking at the entire dataset w
 
 ## Correlation between success and actor ethnic diversity
 
-To analyse in more detail the ethnic representation in the movie industry, we can look at the more successful movie and the ethnic diversity in such. First we have to define a successfull movie we have in the dataset two datas that can be used : box-office and the number of movies. 
-
-On the all dataset only 28% have a data for the revenue, it is not a lot as it's overall for all the countries on a long period of time. We can look at the distribution and see if it's relevant to work with this data. 
-
-Looking at the data, we most of our data are for the USA and is much less for others countries. As it makes more sens to look at the ethnic deiversity in a country we will not use data with less than 1000 data because we will look in these datas as multiple ethnicities that will again dampen the number of data we have. We can select 5 countries with more data and see looking at the ethnic representation if we have cluster on the revenue. 
-
-
-We prefer to work with another data for the success, as we don't have enought data in the revenu. We will define now the success for a movie as the success of actors playing in this movie. First to implement this we will look at the actors in the dataset and calculate the number of movies for each to define a ranking of successfull actors. 
+We can look at the more successful films and their ethnic diversity to get a better understanding of ethnic representation in the film industry. To begin, we must define a successful movie. Because only 28% of the datasets have box office revenue, we define a successful movie as having at least two famous actors in the cast.
 
 ![Number of actors per movie](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/18.png)
 
-We used a log scale as the distribution look more like a power low distribution. We can see that most actors have played less than 100 movies. We will use an arbitrary threshold and definition of success as the 10% actors with the most movies are the famous one. 
-
-Now that we have famous actors we want to find famous movies in the dataset, a new rule is that we consider a movie successfull if there is more than two famous actors playing in it. 
-
-Now that we obtained the table with our famous movies we will look at some simple analysis like from which countries these movies are, or is there some diversity overall in the datas. A deeper analysis on the diversity with observational studies will be made later on. 
+The majority of actors have appeared in fewer than 100 films, as can be seen. We will use an arbitrary success threshold and define the most famous actors as the 5% with the most films. A film is considered successful if it features more than two famous actors.
 
 ![Number of movies - tf is this plot](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/19.png)
 
@@ -292,7 +279,6 @@ As expected the famous movies are more present in US, India and Europe, we also 
 Now to have a real estimation of the diversity and if there is a difference in ethnic representation for movie with success and without it, we will do an observational study by finding for each successfull movie an non successful one, for that we will look at different criterias. First the country movie has to me matched, secondly the year of production obviouly as to match maybe not the exact same year but we will do it 5 years by 5 years. Lastly the number of actors playing in the movie has to be similar to obtain a significant result. For that we will match cast that have more or less the same number of actors in 2 actors difference. After the matching we will use a linear regression to see if there is a difference in the ethnic diversity by printing a linear table of the diversity score for the two groups (successfull and non successfull movies). 
 To understand a score and show diversity, we will calcularte the ethnic diversity with simpson's diversity index.
 
-### Observational study
 ### Linear regression
 
 ![Linear regression plot](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/23.png)
@@ -343,9 +329,6 @@ Again to see the diversity representation for the two genders we will conduct an
 
 We can conclude looking at the plot that a good part of the movies have no diversity (same ethnicity for all the actors in the cast), it's more prevalant for movies with a majority of female in the cast. As a consequence the mean diversity for movies with a majority of female is lower which is interesting, we will analyse
 
-### T-test
-
-Table?
 
 ## Sentimental analysis
 
@@ -365,19 +348,3 @@ The R-squared value of 0.008 indicates that the model explains a small portion o
 
 ---
 
-### Movie genre
-
-For each groups, take the top 20 of the most popular genres with pie graph ?
-
-
-
-Table test
-
-|                               | somethin            | whatever            |
-|:------------------------------|:-------------------:|:-------------------:|
-| 1.                            | a            | s           |
-| 2                 | d           | f       |
-| 3        | meh        | bla            |
-| 4                   |    idk                 | coucou            |
-|===============================+=====================+=====================|
-{:.stretch-table.dl-table}

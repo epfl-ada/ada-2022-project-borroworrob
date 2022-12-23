@@ -8,7 +8,7 @@ redirect_from:
   - /download/
 ---
 
-<img style="float: right;" src="assets/img/melina.jpg">
+<img style="float: right;" src="https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/assets/img/melina.png">
 
 **Mélina Lasfargues**
 \
@@ -19,7 +19,7 @@ E-mail: melina.lasfargues@epfl.ch
 GitHub: [Melina19L](https://github.com/Melina19L)
 \
 \
-<img style="float: right;" src="assets/img/johann.jpg">
+<img style="float: right;" src="https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/assets/img/johann.png">
 
 **Johann Kammholz**
 \
@@ -30,7 +30,7 @@ E-mail: johann.kammholz@epfl.ch
 GitHub: [Johann-EPFL](https://github.com/Johann-EPFL)
 \
 \
-<img style="float: right;" src="assets/img/dalil.jpg">
+<img style="float: right;" src="https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/assets/img/dalil.png">
 
 **Dalil Koheeallee**
 \
@@ -41,7 +41,8 @@ E-mail: dalil.koheeallee@epfl.ch
 GitHub: [Dalilkoh](https://github.com/Dalilkoh)
 \
 \
-<img style="float: right;" src="assets/img/david.jpg">
+<img style="float: right;" src="https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/assets/img/david.png">
+
 
 **David Robin Pavel Iosub**
 \
