@@ -59,7 +59,7 @@ We have a much better representation of the data set after 1970, with the same p
 
 ![Ev of rep 1970](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/5.png)
 
-## How is ethnic diversity represented in each country's film industry?<a name="paragraph3"></a> 
+## How is ethnic diversity represented in each country's film industry<a name="paragraph3"></a> 
 Looking deeper in the dataset for various geographic areas : `US`, `China`, `India`,`Europe`. 
 
 
@@ -292,7 +292,7 @@ As expected the famous movies are more present in US, India and Europe, we also 
 Now to have a real estimation of the diversity and if there is a difference in ethnic representation for movie with success and without it, we will do an observational study by finding for each successfull movie an non successful one, for that we will look at different criterias. First the country movie has to me matched, secondly the year of production obviouly as to match maybe not the exact same year but we will do it 5 years by 5 years. Lastly the number of actors playing in the movie has to be similar to obtain a significant result. For that we will match cast that have more or less the same number of actors in 2 actors difference. After the matching we will use a linear regression to see if there is a difference in the ethnic diversity by printing a linear table of the diversity score for the two groups (successfull and non successfull movies). 
 To understand a score and show diversity, we will calcularte the ethnic diversity with simpson's diversity index.
 
-### Observational study?
+### Observational study
 ### Linear regression
 
 ![Linear regression plot](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/23.png)
@@ -320,30 +320,23 @@ We can see a slow increase of female in movie cast, a strange data is represente
 
 
 Again to see the diversity representation for the two genders we will conduct an observationnal study, we will match one female and one male actor : 
+
 1. Match the number of movies
-    ```
     First for to be fair we have to match movies by their numbers of actors, as obviously a movie with 14 actors as more chance to have a good diversity than a movie with only two actors. 
-    ```
 
 2. Match their age 
-   ```
    Secondly we will match each movie by their countries movies, as some countries have diversity in actors than other (see analysis made earlier). 
-    ```
+
 3. Match the country of production 
-   ```
    We will conduct this analysis only for the the biggest countries: United State, India and Europe
 
-    ```
 4. Diversity score calculation 
-   ```
    We will calculate the diversity score for men and woman for each years 
    
-    ```
+
 5. T_statistic
-   ```
    We will check the distribution of the diversity score (normal or not) to choose the tests we want to use 
    
-    ```
     
     
 ![YAP2](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/26.png)
@@ -356,9 +349,9 @@ Table?
 
 ## Sentimental analysis
 
-### Score on summary??
+### Score on summary
 
-Using the sentimental analysis, we will only look at data movies with more than 4 actors in it. We will compute the diversity percentage and merge with previous `df_sent` and try to look for a relation.
+Using the sentimental analysis, we will only look at data movies with more than 4 actors in it. For this, we are looking at sentiment scores depending on number of groups.
 
 
 ### Linear regression

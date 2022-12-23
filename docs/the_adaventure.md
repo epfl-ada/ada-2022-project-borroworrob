@@ -9,7 +9,6 @@ redirect_from:
 ---
 
 
-# The Adaventure
 
 The [*Oxford Learner's Dictionaries*](https://www.oxfordlearnersdictionaries.com/definition/english/woke_2) define **woke** as: aware of social and political issues, especially racism. Our society is slowly evolving towards a feeling of inclusion and equality for different social groups. This is reflected by an effort to give equal opportunities and representation to minorities  in the media. In this project we will put the focus on ethnic diversity in the film industry worldwide. For this goal, we will use the movie metadata from the November 4, 2012 dump of Freebase to compare the representation of different ethnicities in different countries of production, and study their evolution over time.
 
