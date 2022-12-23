@@ -1,6 +1,6 @@
 ---
 layout: post
-title: adaventure
+title: Adaventure
 description: >
   Main page of our adaventure.
 hide_description: true

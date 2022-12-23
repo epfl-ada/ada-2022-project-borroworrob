@@ -50,11 +50,11 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             The Adaventure
-    url:               /adaventuree/
+    url:               /the_adaventure/
   - title:             Our team
     url:               /ourteam/
-  - title:             Adaventure
-    url:               /adaventure/
+#  - title:             Adaventure
+#    url:               /adaventure/
 #  - title:             Documentation
 #    url:               /docs/
 #  - title:             About
