@@ -30,7 +30,7 @@ Barplot showing the occurrence of different ethnicities in a log scale.
 
 After cleaning our dataset, we started by plotting the evolution of the total number of ethnicities present in movies over the years.
 
-![Number of eth over time](https://github.com/epfl-ada/ada-2022-project-borroworrob/blob/main/docs/figures/2.png)
+![Number of eth over time](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/2.png)
 
 
 ### Number of movies by country over time
