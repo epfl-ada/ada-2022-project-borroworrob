@@ -22,7 +22,7 @@ In this project, we are going to work on the representation of the ethnicity in 
 
 From an initial exploration of the data, we could see that the dataset contains 476 different ethnicities, with the first few representing the vast majority; many ethnicities have only one actor in the dataset. Because the distribution is heavy tailed, ethnicities are represented below with a log axis.
 
-![Ethnicities Occurrences](/figures/1.png)
+![Ethnicities Occurrences](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/1.png)
 Barplot showing the occurrence of different ethnicities in a log scale.
 {:.figcaption}
 
@@ -30,8 +30,7 @@ Barplot showing the occurrence of different ethnicities in a log scale.
 
 After cleaning our dataset, we started by plotting the evolution of the total number of ethnicities present in movies over the years.
 
-![Number of eth over time](2.png)
-![Number of eth over time](/2.png)
+![Number of eth over time](https://github.com/epfl-ada/ada-2022-project-borroworrob/blob/main/docs/figures/2.png)
 
 
 ### Number of movies by country over time

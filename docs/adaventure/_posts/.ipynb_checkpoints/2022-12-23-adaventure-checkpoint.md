@@ -22,7 +22,7 @@ In this project, we are going to work on the representation of the ethnicity in 
 
 From an initial exploration of the data, we could see that the dataset contains 476 different ethnicities, with the first few representing the vast majority; many ethnicities have only one actor in the dataset. Because the distribution is heavy tailed, ethnicities are represented below with a log axis.
 
-![Ethnicities Occurrences](../../figures/1.png)
+![Ethnicities Occurrences](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/1.png)
 Barplot showing the occurrence of different ethnicities in a log scale.
 {:.figcaption}
 
@@ -30,7 +30,7 @@ Barplot showing the occurrence of different ethnicities in a log scale.
 
 After cleaning our dataset, we started by plotting the evolution of the total number of ethnicities present in movies over the years.
 
-![Number of eth over time](../../figures/2.png)
+![Number of eth over time](https://github.com/epfl-ada/ada-2022-project-borroworrob/blob/main/docs/figures/2.png)
 
 
 ### Number of movies by country over time
@@ -39,14 +39,14 @@ If we want to extract meaningful information from our data, we must first take i
 > ***NOTE :***
 First, we will examine the number of films produced in the two major film producing countries: `India`  and the `United States`. 
 
-![Evolution of number of movies for different countries](../../figures/3.png)
+![Evolution of number of movies for different countries](figures/3.png)
 
 ---
 **Conclusion**
 
 The timeline is not good because we can see that Indian movies are only represented after 1930, and they are also much less present in the dataset until 1960-1970. Thus, we can try to look at the data after56 1970.
 
-![Evolution of number of movies](../../figures/4.png)
+![Evolution of number of movies](figures/4.png)
 
 ---
 
@@ -57,7 +57,7 @@ We have a much better representation of the data set after 1970, with the same p
 
 ---
 
-![Ev of rep 1970](../../figures/5.png)
+![Ev of rep 1970](figures/5.png)
 
 ## How is ethnic diversity represented in each country's film industry?<a name="paragraph3"></a> 
 Looking deeper in the dataset for various geographic areas : `US`, `China`, `India`,`Europe`. 
@@ -69,14 +69,14 @@ Unfortunately, our dataset didn't contain enough movies produced in China to ext
 
 ### USA
 
-![Ev of rep usa](../../figures/6.png)
+![Ev of rep usa](figures/6.png)
 
 Black and white populations appear to be increasingly represented in the film industry. However, the overall number of actors per film is increasing.
 
 > ***NOTE :***
 To determine the true trend in ethnic representation in the movie industry, we will normalize the number of actors by ethnic group by the total number of actors.
 
-![Ev of rep of eth usa](../../figures/7.png)
+![Ev of rep of eth usa](figures/7.png)
 
 ---
 ***Conclusion***
@@ -88,25 +88,25 @@ The results are quite surprising: while white actors are less represented over t
 
 ### India
 
-![Ev of rep eth india](../../figures/8.png)
+![Ev of rep eth india](figures/8.png)
 
 
-![Ev of rep of soas](../../figures/9.png)
+![Ev of rep of soas](figures/9.png)
 
 ### Europe
 
-![Evo of rep eu](../../figures/10.png)
+![Evo of rep eu](figures/10.png)
 
 Taking europe as a whole, we can observe a very strong representation of white people. Perhaps better to look at each country indivudually and look at ethnicity and not groups.
 
-![Evo of rep eu](../../figures/10_.png)
+![Evo of rep eu](figures/10_.png)
 
 > **NOTE :**
 We will look more closely to the 3 countries with more movies : `UK`,`France`,`Germany`.
 
 #### UK
 
-![Evo of rep uk](../../figures/11.png)
+![Evo of rep uk](figures/11.png)
 
 
 #### France
@@ -135,7 +135,7 @@ We chose to look at the 100 most famous movies based on the dataset's column **`
 
 Clearly, the United States has the most movies and the highest revenue, followed by India and the United Kingdom. We will now look at the top movies.
 
-![Proportion of actors for each eth](../../figures/12.png)
+![Proportion of actors for each eth](figures/12.png)
 
 ---
 **Conclusion**
@@ -163,7 +163,7 @@ where pi is the proportion of individuals in the population belonging to each et
 Using this formula, we will calculate the entropy of a population and compare it to other populations to assess the level of ethnic diversity. A population with a higher entropy would indicate a greater degree of ethnic diversity, while a population with a lower entropy would indicate less ethnic diversity.
 
 
-![Entropy usa](../../figures/13.png)
+![Entropy usa](figures/13.png)
 
 
 ---
@@ -188,7 +188,7 @@ The Simpson index ranges from 0 (complete uniformity, with all individuals belon
 
 The Simpson index is useful for quantifying ethnic diversity because it takes into account both the number of different ethnic groups present and the relative proportions of each group.
 
-![Simpson entropy usa](../../figures/14.png)
+![Simpson entropy usa](figures/14.png)
 
 
 ---
@@ -223,7 +223,7 @@ We will store all of the p values in a 2D matrix (same period for the 2 entries)
 
 To begin, we must change the date to obtain all movies from a 10-year period in only one category, and then we will calculate the diversity score for each movie, excluding movies with fewer than four actors.
 
-![Distrib of simp](../../figures/15.png)
+![Distrib of simp](figures/15.png)
 
 As our distribution is not normal we will use the **Kruskal-Wallis** test. It is a non-parametric statistical test that will be used to compare the diversity of ethnicities in different periods of time. It is commonly used when the data are not normally distributed or when the assumptions of other parametric tests, such as the one-way ANOVA, are not met.
 
@@ -236,7 +236,7 @@ If the H-value is found to be statistically significant at a predetermined level
 #### Heatmap of p_value diversity for each period
 
 
-![Weird heatmap](../../figures/16.png)
+![Weird heatmap](figures/16.png)
 
 ---
 **Conclusion**
@@ -248,7 +248,7 @@ Surprisingly, the p value is high between 1940 and 2000, implying that the null 
 
 #### Mean diversity score for each period
 
-![Div score overtime](../../figures/17.png)
+![Div score overtime](figures/17.png)
 
 ---
 **Conclusion**
@@ -268,7 +268,7 @@ Looking at the data, we most of our data are for the USA and is much less for ot
 
 We prefer to work with another data for the success, as we don't have enought data in the revenu. We will define now the success for a movie as the success of actors playing in this movie. First to implement this we will look at the actors in the dataset and calculate the number of movies for each to define a ranking of successfull actors. 
 
-![Number of actors per movie](../../figures/18.png)
+![Number of actors per movie](figures/18.png)
 
 We used a log scale as the distribution look more like a power low distribution. We can see that most actors have played less than 100 movies. We will use an arbitrary threshold and definition of success as the 10% actors with the most movies are the famous one. 
 
@@ -276,18 +276,18 @@ Now that we have famous actors we want to find famous movies in the dataset, a n
 
 Now that we obtained the table with our famous movies we will look at some simple analysis like from which countries these movies are, or is there some diversity overall in the datas. A deeper analysis on the diversity with observational studies will be made later on. 
 
-![Number of movies - tf is this plot](../../figures/19.png)
+![Number of movies - tf is this plot](figures/19.png)
 
 
 We can already tell just looking at the data that we have different data for famous and non famous movies, as checked before we have a similar number of movies for the two dataset but we have different number of countries producing: 90 different countries for the non_famous and 50 for the famous one. Again looking in more detail we can see difference in the movies producing famous or non famous countries. 
 
 
-![Pieplot?](../../figures/20.png)
+![Pieplot?](figures/20.png)
 
 As expected the famous movies are more present in US, India and Europe, we also have a good number of data for the Canada. As we have outliers like the United State of America and the distribution is more a distribution we used a log axis for the number of famous movies. Now we will look more into the ethnic diversity in these famous overall and in the main countries producing these movies. 
 
 
-![Another weird pieplot](../../figures/22.png)
+![Another weird pieplot](figures/22.png)
 
 Now to have a real estimation of the diversity and if there is a difference in ethnic representation for movie with success and without it, we will do an observational study by finding for each successfull movie an non successful one, for that we will look at different criterias. First the country movie has to me matched, secondly the year of production obviouly as to match maybe not the exact same year but we will do it 5 years by 5 years. Lastly the number of actors playing in the movie has to be similar to obtain a significant result. For that we will match cast that have more or less the same number of actors in 2 actors difference. After the matching we will use a linear regression to see if there is a difference in the ethnic diversity by printing a linear table of the diversity score for the two groups (successfull and non successfull movies). 
 To understand a score and show diversity, we will calcularte the ethnic diversity with simpson's diversity index.
@@ -295,7 +295,7 @@ To understand a score and show diversity, we will calcularte the ethnic diversit
 ### Observational study?
 ### Linear regression
 
-![Linear regression plot](../../figures/23.png)
+![Linear regression plot](figures/23.png)
 
 ---
 **Summary linear regression**
@@ -310,11 +310,11 @@ The intercept 0.4713 is the mean outcome for the simpson index representing dive
 
 Gender as ethnicity is a big subject for the society nowedays, we will look at the ethnic diversity and if there is a difference in representation between man and female. First we will just look at a few datas on the gender and how they are represented in the datas we have. 
 
-![Idk anymore](../../figures/24.png)
+![Idk anymore](figures/24.png)
 
 Looking at the data, overall there is always more men than women actors. To have a better overview of gender representation we will more closely look at each movie and the number of men and women for each cast; we will show over time the proportionality of gender in casts. 
 
-![Yet another plot](../../figures/25.png)
+![Yet another plot](figures/25.png)
 
 We can see a slow increase of female in movie cast, a strange data is represented around 1930, as we look in detail in the data we don't have a lot of data for this date. There is probably an explanation.
 
@@ -346,7 +346,7 @@ Again to see the diversity representation for the two genders we will conduct an
     ```
     
     
-![YAP2](../../figures/26.png)
+![YAP2](figures/26.png)
 
 We can conclude looking at the plot that a good part of the movies have no diversity (same ethnicity for all the actors in the cast), it's more prevalant for movies with a majority of female in the cast. As a consequence the mean diversity for movies with a majority of female is lower which is interesting, we will analyse
 
@@ -363,7 +363,7 @@ Using the sentimental analysis, we will only look at data movies with more than 
 
 ### Linear regression
 
-![Second weird lin reg](../../figures/27.png)
+![Second weird lin reg](figures/27.png)
 
 ---
 **Summary linear regression**
