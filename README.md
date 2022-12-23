@@ -1,7 +1,7 @@
 # Analysing the wokeness of the film industry
 ___Study of the representation of ethnic diversity in the film industry___
 
-The Datastory of our project can be found here "[here]" "(https://epfl-ada.github.io/ada-2022-project-borroworrob/)".
+The Datastory of our project can be found here [here](https://epfl-ada.github.io/ada-2022-project-borroworrob/).
 
 ## Abstract: 
 
