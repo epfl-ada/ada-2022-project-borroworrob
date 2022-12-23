@@ -254,22 +254,11 @@ The data show a quite interesting story, overall looking at the entire dataset w
 
 ## Correlation between success and actor ethnic diversity
 
-To analyse in more detail the ethnic representation in the movie industry, we can look at the more successful movie and the ethnic diversity in such. First we have to define a successfull movie we have in the dataset two datas that can be used : box-office and the number of movies. 
-
-On the all dataset only 28% have a data for the revenue, it is not a lot as it's overall for all the countries on a long period of time. We can look at the distribution and see if it's relevant to work with this data. 
-
-Looking at the data, we most of our data are for the USA and is much less for others countries. As it makes more sens to look at the ethnic deiversity in a country we will not use data with less than 1000 data because we will look in these datas as multiple ethnicities that will again dampen the number of data we have. We can select 5 countries with more data and see looking at the ethnic representation if we have cluster on the revenue. 
-
-
-We prefer to work with another data for the success, as we don't have enought data in the revenu. We will define now the success for a movie as the success of actors playing in this movie. First to implement this we will look at the actors in the dataset and calculate the number of movies for each to define a ranking of successfull actors. 
+We can look at the more successful films and their ethnic diversity to get a better understanding of ethnic representation in the film industry. To begin, we must define a successful movie. Because only 28% of the datasets have box office revenue, we define a successful movie as having at least two famous actors in the cast.
 
 ![Number of actors per movie](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/18.png)
 
-We used a log scale as the distribution look more like a power low distribution. We can see that most actors have played less than 100 movies. We will use an arbitrary threshold and definition of success as the 10% actors with the most movies are the famous one. 
-
-Now that we have famous actors we want to find famous movies in the dataset, a new rule is that we consider a movie successfull if there is more than two famous actors playing in it. 
-
-Now that we obtained the table with our famous movies we will look at some simple analysis like from which countries these movies are, or is there some diversity overall in the datas. A deeper analysis on the diversity with observational studies will be made later on. 
+The majority of actors have appeared in fewer than 100 films, as can be seen. We will use an arbitrary success threshold and define the most famous actors as the 5% with the most films. A film is considered successful if it features more than two famous actors.
 
 ![Number of movies - tf is this plot](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/19.png)
 
@@ -304,38 +293,22 @@ The intercept 0.4713 is the mean outcome for the simpson index representing dive
 
 Gender as ethnicity is a big subject for the society nowedays, we will look at the ethnic diversity and if there is a difference in representation between man and female. First we will just look at a few datas on the gender and how they are represented in the datas we have. 
 
-![Idk anymore](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/24.png)
-
-Looking at the data, overall there is always more men than women actors. To have a better overview of gender representation we will more closely look at each movie and the number of men and women for each cast; we will show over time the proportionality of gender in casts. 
 
 ![Yet another plot](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/25.png)
 
-We can see a slow increase of female in movie cast, a strange data is represented around 1930, as we look in detail in the data we don't have a lot of data for this date. There is probably an explanation.
+We can see a slow increase in the number of females in movie casts; however, a strange data point is represented around 1930 with a better percentage of actresses. Again, to examine the gender diversity representation, we will conduct an observational study, pairing one film with a majority of actresses and another with a majority of actors:
 
 
-Again to see the diversity representation for the two genders we will conduct an observationnal study, we will match one female and one male actor : 
-
-1. Match the number of movies
-    First for to be fair we have to match movies by their numbers of actors, as obviously a movie with 14 actors as more chance to have a good diversity than a movie with only two actors. 
-
-2. Match their age 
-   Secondly we will match each movie by their countries movies, as some countries have diversity in actors than other (see analysis made earlier). 
-
-3. Match the country of production 
-   We will conduct this analysis only for the the biggest countries: United State, India and Europe
-
-4. Diversity score calculation 
-   We will calculate the diversity score for men and woman for each years 
-   
-
-5. T_statistic
-   We will check the distribution of the diversity score (normal or not) to choose the tests we want to use 
-   
+1. Match the number of actors
+2. Match the period of the movie release
+3. Match the country of production
+4. Diversity score calculation for actors in the cast
+5. Linear regression
     
     
 ![YAP2](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/26.png)
 
-We can conclude looking at the plot that a good part of the movies have no diversity (same ethnicity for all the actors in the cast), it's more prevalant for movies with a majority of female in the cast. As a consequence the mean diversity for movies with a majority of female is lower which is interesting, we will analyse
+We can deduce from the plot that a large portion of the movies lack diversity (all of the actors in the cast are the same ethnicity), which is more prevalent in films with a majority of female actors in the cast. As a result, the average diversity for female-majority films is lower. However, the observational study found that the difference in ethnicity between the two datasets is not statistically significant.
 
 
 ## Sentimental analysis
@@ -355,6 +328,12 @@ Using the sentimental analysis, we will only look at data movies with more than 
 The R-squared value of 0.008 indicates that the model explains a small portion of the variance in the dependent variable (sentiment score). The adjusted R-squared value of 0.007 is similar, and indicates that the model accounts for a small amount of the variance in the dependent variable after accounting for the number of variables in the model. The F-statistic and its corresponding p-value of 40.82 and 1.81e-10, respectively, indicate that the model as a whole is statistically significant. We can see that the mean of each groups is nearly the same. We can infer that the diversity of a movie doesn't influence the the sentiment score based on summaries (small variation. decrease by 0.0145 per unit).
 
 ---
+
+## Conclusion
+
+It is generally agreed upon that the representation of various ethnicities in the movie industry has not been particularly fair. Many people from marginalized groups, including people of color, LGBTQ+ individuals, and people with disabilities, have historically been underrepresented and often portrayed in stereotypical or negative ways in films. This lack of fair representation can have a significant impact on the way that these groups are perceived and treated in society. It can also limit the opportunities available to actors and filmmakers from these groups to tell their own stories and be recognized for their talents.
+
+There have been some efforts in recent years to improve representation in the movie industry, but there is still a long way to go. Many people believe that more needs to be done to promote diversity and inclusion in all aspects of the movie industry, including in the stories that are told, the actors who are cast, and the filmmakers who are given the opportunity to make films. Overall, it is important for the movie industry to reflect the diversity of the world in which we live and to give equal opportunities to all people, regardless of their ethnicity or other identities.
 
 
 ## About

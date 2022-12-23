@@ -311,7 +311,7 @@ We can see a slow increase in the number of females in movie casts; however, a s
     
 ![YAP2](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/26.png)
 
-We can conclude looking at the plot that a good part of the movies have no diversity (same ethnicity for all the actors in the cast), it's more prevalant for movies with a majority of female in the cast. As a consequence the mean diversity for movies with a majority of female is lower which is interesting, we will analyse
+We can deduce from the plot that a large portion of the movies lack diversity (all of the actors in the cast are the same ethnicity), which is more prevalent in films with a majority of female actors in the cast. As a result, the average diversity for female-majority films is lower. However, the observational study found that the difference in ethnicity between the two datasets is not statistically significant.
 
 
 ## Sentimental analysis
@@ -332,3 +332,8 @@ The R-squared value of 0.008 indicates that the model explains a small portion o
 
 ---
 
+## Conclusion
+
+It is generally agreed upon that the representation of various ethnicities in the movie industry has not been particularly fair. Many people from marginalized groups, including people of color, LGBTQ+ individuals, and people with disabilities, have historically been underrepresented and often portrayed in stereotypical or negative ways in films. This lack of fair representation can have a significant impact on the way that these groups are perceived and treated in society. It can also limit the opportunities available to actors and filmmakers from these groups to tell their own stories and be recognized for their talents.
+
+There have been some efforts in recent years to improve representation in the movie industry, but there is still a long way to go. Many people believe that more needs to be done to promote diversity and inclusion in all aspects of the movie industry, including in the stories that are told, the actors who are cast, and the filmmakers who are given the opportunity to make films. Overall, it is important for the movie industry to reflect the diversity of the world in which we live and to give equal opportunities to all people, regardless of their ethnicity or other identities.
