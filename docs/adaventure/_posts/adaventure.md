@@ -1,5 +1,6 @@
 ---
-layout: about
+layout: post
+title: adaventure
 description: >
   Main page of our adaventure.
 hide_description: true
