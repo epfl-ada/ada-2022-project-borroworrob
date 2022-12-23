@@ -296,33 +296,17 @@ The intercept 0.4713 is the mean outcome for the simpson index representing dive
 
 Gender as ethnicity is a big subject for the society nowedays, we will look at the ethnic diversity and if there is a difference in representation between man and female. First we will just look at a few datas on the gender and how they are represented in the datas we have. 
 
-![Idk anymore](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/24.png)
-
-Looking at the data, overall there is always more men than women actors. To have a better overview of gender representation we will more closely look at each movie and the number of men and women for each cast; we will show over time the proportionality of gender in casts. 
 
 ![Yet another plot](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/25.png)
 
-We can see a slow increase of female in movie cast, a strange data is represented around 1930, as we look in detail in the data we don't have a lot of data for this date. There is probably an explanation.
+We can see a slow increase in the number of females in movie casts; however, a strange data point is represented around 1930 with a better percentage of actresses. Again, to examine the gender diversity representation, we will conduct an observational study, pairing one film with a majority of actresses and another with a majority of actors:
 
 
-Again to see the diversity representation for the two genders we will conduct an observationnal study, we will match one female and one male actor : 
-
-1. Match the number of movies
-    First for to be fair we have to match movies by their numbers of actors, as obviously a movie with 14 actors as more chance to have a good diversity than a movie with only two actors. 
-
-2. Match their age 
-   Secondly we will match each movie by their countries movies, as some countries have diversity in actors than other (see analysis made earlier). 
-
-3. Match the country of production 
-   We will conduct this analysis only for the the biggest countries: United State, India and Europe
-
-4. Diversity score calculation 
-   We will calculate the diversity score for men and woman for each years 
-   
-
-5. T_statistic
-   We will check the distribution of the diversity score (normal or not) to choose the tests we want to use 
-   
+1. Match the number of actors
+2. Match the period of the movie release
+3. Match the country of production
+4. Diversity score calculation for actors in the cast
+5. Linear regression
     
     
 ![YAP2](https://raw.githubusercontent.com/epfl-ada/ada-2022-project-borroworrob/main/docs/figures/26.png)
