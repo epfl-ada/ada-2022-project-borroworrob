@@ -12,10 +12,14 @@ redirect_from:
 # About
 
 <!--author-->
+<!--author1-->
+<!--author2-->
+<!--author3-->
+<!--author4-->
 
 ## Hydejack
 
-A boutique Jekyll theme for hackers, nerds, and academics.  
+Test A boutique Jekyll theme for hackers, nerds, and academics.  
 {:.lead}
 
 1. this list will be replaced by the toc
@@ -23,7 +27,7 @@ A boutique Jekyll theme for hackers, nerds, and academics.
 
 ![Screenshot](assets/img/blog/hydejack-9.jpg){:.lead width="1920" height="1080" loading="lazy"}
 
-Hydejack's cover page on a variety of screen sizes.
+Test Hydejack's cover page on a variety of screen sizes.
 {:.figcaption}
 
 
